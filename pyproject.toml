@@ -38,11 +38,6 @@ dependencies = [
     "windows-curses; platform_system == 'Windows'",
 ]
 
-[project.optional-dependencies]
-test = [
-    "pytest",
-]
-
 [project.scripts]
 termdown = "termdown.cli:main"
 
